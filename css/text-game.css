@@ -1,0 +1,711 @@
+.text_image_bg {
+   background-image: linear-gradient(to right, #050505 50%, #59baff 50%););
+  color:var(--title-color)
+}
+.text_image{
+    display: flex;
+    padding: 290px 0 250px 0;
+}
+.fire_future{
+    display: flex;
+    align-items: center;
+}
+.future{
+    padding-left: 8px;
+    font-family: Orbitron;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+color: #57B8FF;
+
+}.nexT_Generation{
+     padding-bottom: 43px;
+    width: 660px;
+height: 258px;
+top: 48px;
+gap: 0px;
+opacity: 0px;
+font-family: Orbitron;
+font-size: 72px;
+font-weight: 400;
+line-height: 86px;
+text-align: left;
+}
+.blur_word{
+    margin-top: 43px;
+    margin-bottom: 53px;
+    width: 615px;
+height: 56px;
+top: 349px;
+color: #999999;
+
+}
+.BTN_TWO{
+    width: 660px;
+height: 70px;
+    display: flex   
+}
+.btn_explore{
+    font-family: Orbitron;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #57B8FF;
+    width: 203px;
+    height: 70px;
+    color: var(--title-color);
+
+}
+.btn_view{
+    background-color: #050505;
+}
+.yellow_fonts{
+    padding-top: 130px ;
+    background-color: #fcd04c;
+   
+/* padding-left:  100px ; */
+
+}
+.Sonsors_YellowP{
+   
+    
+    
+     
+ 
+   
+    
+}
+.text_our{
+ 
+ margin: 0 auto;
+    width: 596px;
+height: 149px;
+ 
+ 
+
+}
+.our_spons{
+    
+    margin-bottom: 44px;
+    font-family: Orbitron;
+font-size: 48px;
+font-weight: 400;
+line-height: 58px;
+text-align: center;
+}
+.title_sons{
+    font-family: Orbitron;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+color:#555555;
+}
+.our_team{
+    padding-top: 44px;
+}
+.team_menu{
+    list-style-type: none;
+    padding-left: 10px;
+    display: flex;
+    gap: 33px;
+    padding-bottom: 130px;
+}
+.img_icon{
+    width: 193px;
+height: 89px;
+}
+.bg_environment{
+    background-image: url("../image/bg_fon.png");
+    background-size: cover;
+   background-repeat: no-repeat;
+   height: 200vh;
+   padding-top: 130px;
+}
+.need_to_gaming{
+    font-family: Orbitron;
+font-size: 64px;
+font-weight: 400;
+line-height: 74px;
+text-align: center;
+width: 716px;
+ padding-bottom: 40px;
+ padding-top: 12px;
+ 
+ 
+ 
+color:var(--title-color)
+
+}
+.text_little{
+    text-align: center;
+    width: 698px;
+    height: 64px;
+    top: 230.58px;
+    left: 36px; 
+}
+.text_nature{ 
+    margin: 0 auto;
+    width: 770px;
+height: 292px;
+left: 275px;
+}
+.add_order{
+   justify-content: center;   
+}
+.different_game_name{
+    padding-left: 20px;
+    display: flex;
+    gap: 10px;
+}
+.all_new_name{
+   padding-top: 30px;
+   background-color:#4a544f ; 
+ 
+width: 642.46px;
+height: 212px;
+ 
+border-radius: 20px ;
+margin-bottom: 20px;
+ 
+
+ 
+
+}
+.all_new_name_1{
+   
+    padding-left: 20px;
+    color: var(--title-color);
+    width: 516.38px;
+font-family: Orbitron;
+font-size: 32px;
+font-weight: 400;
+text-align: left;
+padding-bottom: 20px;
+}
+.all_new_name_2{
+    padding-left: 60px;
+  text-align: center;
+    width: 515.28px;
+color:   #DFDFDFCC;
+ font-family: Orbitron;
+font-size: 18px;
+font-weight: 400;
+text-align: left;
+}
+.rectangle{
+     
+    width: 10.49px;
+height: 10.49px;
+top: 7.07px;
+left: 15.51px;
+width: 31.79px;
+height: 29px;
+top: 35px;
+left: 38.37px;
+gap: 0px;
+opacity: 0px;
+color: #57B8FF;
+
+angle: -42.37 deg;
+
+}
+.menu_item_section1{
+    display: flex;
+    gap: 33px;
+}
+.menu_item_section2{
+    display: flex;
+    gap: 33px;
+}
+@media(max-width:  1252px){
+   
+    .text_image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+   .text_image_game{
+    /* width: 660px;
+    height: 516px; */
+    width: 100%;
+   }
+}
+@media(max-width:  800px){
+    .text_image_bg {
+         background :#050505;
+     }
+
+    .nexT_Generation{
+        font-size: 30px;
+     
+    }
+ 
+    .nexT_Generation{
+       display: flex;
+       flex-direction: column;
+       /* flex-wrap: wrap; */
+       width: 300px;
+    }
+    .blur_word{
+        margin-top: 3px;
+        margin-bottom: 53px;
+        width: 415px;
+    height: 56px;
+    top: 349px;
+    color: #999999;
+    
+    }
+    .texts{
+        width: 300px;
+      
+    }
+    .BTN_TWO{
+        margin-bottom: 40px;
+        width: 420px;
+    }
+ 
+}
+@media(max-width:  560px){
+    .BTN_TWO{
+        display: flex;
+          flex-direction: column;
+
+
+                  }
+                  .btn_explore{
+                    margin-bottom: 20px;
+                  }
+                  .btn_view{
+                    background-color: #57B8FF;
+                  }
+                  .blur_word{
+                    width: 300px;
+                    padding: 10px 50px 20pxs;
+                  }
+}
+@media(max-width:  1330px){
+    .team_menu{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         width: 670px;
+    }
+    .our_team{
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:  670px){
+    .menu_item_section1{
+        display: block;
+    }
+    .menu_item_section2{
+        display: block;
+    }
+   .team_menu{
+    display:  flex;
+    flex-direction: row;
+   }
+    }
+@media(max-width:  590px)  {
+        .text_our{
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        .team_menu{
+            margin-top: 70px;
+        }
+
+    } 
+@media(max-width:  1307px){
+    .different_game_name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   /* display: block; */
+  
+    }
+    .bg_environment{
+        
+        background-image: url("../image/bg_fon.png");
+    background-size: cover;
+   background-repeat: no-repeat;
+   height: 540vh;
+   padding-top: 130px;
+
+
+    }
+    .one_pages{
+        display:block;
+    }
+    .two_pages{
+        display:block ;
+    }
+}
+@media(max-width:  710px){
+    
+    .text_nature{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .need_to_gaming{
+        width: 500px;
+    }
+    .fire_future{
+        width: 400px;
+    }
+    .text_little{
+        width: 500px;
+    }
+    .different_game_name{
+        margin-top: 100px;
+        display: flex;
+    }
+    .all_new_name{
+        width: 300px
+        height: 300px;
+       
+    }
+    .all_new_name_2{
+        width: 400px; 
+        height: 400px;
+    }
+ .all_new_name{
+    width: 440px;
+ }
+
+
+ }
+ @media(max-width:  674px){
+    .need_to_gaming{
+        font-size: 20px;
+        width: 300px;
+        height: 200px;
+    }
+    .text_little{
+        width: 400px;
+        height: 80px;
+    }
+    .text_nature{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bg_environment{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+ }
+ @media(max-width:  674px){
+    .different_game_name{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .one_pages{
+         margin-right: 40px;
+        width: 300px;
+        margin-right: 70px;
+    }
+    .two_pages{
+        margin-right: 70px;
+        width: 300px;
+    }
+    .all_new_name{
+        width: 350px;
+        height: 250px;
+      
+    }
+    .all_new_name_2{
+        width: 300px;
+   
+       
+    }
+    .all_new_name_1{
+      font-size: 20px;  
+    }
+    .bg_environment{
+        background-image: url("../image/bg_fon.png");
+        background-size: cover;
+       background-repeat: no-repeat;
+       height: 350vh;
+       padding-top: 130px;
+
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ }
+ .all_new_name_1{
+    width: 300px;
+ }
+}
+.NeW_eRa_aNd_aWSOme_MuZik{
+    background-color: #050505;
+    padding: 85px 60px 85px 60px;
+    display: flex;
+}
+.add_task{
+
+    height: 200px;
+    color: var(--title-color);
+    font-family: Orbitron;
+font-size: 64px;
+ .add_text{
+    padding: 38px  0 54px 0;
+   
+ }
+ 
+}
+.Muzik_btn{
+    position: relative;
+}
+.muzik{
+    width: 492px;
+height: 550px;
+position: relative;
+
+}
+ .muzik_btn{
+ cursor: pointer;
+    width: 129px;
+height: 129px;
+top: 210.58px;
+left: 181.02px;
+gap: 0px;
+opacity: 0px;
+ position: absolute;
+ }
+ .add_text{
+    padding-bottom: 80px;
+ }
+ @media(max-width:1307px){
+        .NeW_eRa_aNd_aWSOme_MuZik{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+      }
+          
+ }
+ @media(max-width:800px){
+    .muzik{
+        width: 100%;
+    }
+  .puls_orer{
+    font-size: 30px;
+    height: 90px;
+  }
+  .puls_text{
+    margin: 150px 0 150px;
+    width: 300px;
+  }
+  .BTN_TWO{
+    width: 203px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .fire_future{
+    width: 300px;
+  }
+ /* .muzik_btn{
+    left: 70px;
+ } */
+ }
+ .group{ 
+ }
+ .Sniper_nature{
+    display: flex;
+    position: relative;
+ 
+
+ }
+ .target_girl_sniper{
+    position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+ .foto_1{
+    width: 447px;
+ }
+ .target{
+    position:  absolute;   
+ }
+ .target_text{
+    position:  absolute;
+    padding-top: 170px;
+    font-family: Orbitron;
+font-size: 48px;
+/* font-weight: 400;
+line-height: 58px; */
+text-align: center;
+color: var(--title-color);
+ }
+ .group_sniper_control{
+    display: flex;
+align-items: center;
+justify-content: center;
+    position: relative;
+ 
+    align-items: center;
+    justify-content: center;
+ }
+ .control{
+    position:  absolute;
+ }
+ .komps{
+    position:  absolute;
+ }
+ .nature_komps{
+
+ 
+    align-items: center;
+    justify-content: center;
+        position: relative;
+     
+        align-items: center;
+        justify-content: center;
+ }
+ .nature_komp{
+    position:  absolute
+ }
+ .Finish{
+    background-image: url(../image/yellow.png);
+    height: 110vh;
+}
+
+.the_end{
+    padding: 130px 0 130px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 645px;
+    height: 800px;
+    top: 129.61px;
+    left: 296.5px;
+    gap: 0px;
+    opacity: 0px;
+}
+.text_the_end{
+    width: 847px;
+height: 179px;
+gap: 0px;
+opacity: 0px;
+font-family: Orbitron;
+font-size: 72px;
+font-weight: 400;
+line-height: 82px;
+text-align: center;
+
+}
+.little_text{
+    width: 718px;
+height: 87px;
+top: 211.39px;
+left: 64.5px;
+gap: 0px;
+opacity: 0px;
+margin: 82px 0 46px 0;
+
+}
+.finish_btn{
+    width: 670px;
+height: 80px;
+top: 343px;
+left: 88.5px;
+ display: flex
+
+}
+.your_email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 445px;
+height: 70px;
+top: 5.39px;
+background-color: var(--title-color);
+}
+.subscrib_now{width: 221px;
+    height: 70px;
+    top: 5.39px;
+    left: 445px;
+    gap: 0px;
+    opacity: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#57B8FF;
+    color: var(--title-color);
+}
+@media(max-width: 1300px){
+    .group{
+        width: 100%;
+    }
+    .Sniper_nature{
+         display: block;
+    }
+    .foto_1 {
+        width: 100%;
+    }
+    .Finish{
+        background-image: url(../image/yellow.png);
+        height: 300vh;
+    }
+}
+@media(max-width: 750px){
+.text_the_end{
+    width: 400px;
+    font-size: 40px;
+}
+.little_text{
+    width: 400px;
+    margin-bottom: 100px;
+}
+.finish_btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.your_email{
+    margin-bottom: 15px;
+     width: 221px;
+}
+}
+@media(max-width: 650pox){
+.the_end{
+display: inline; 
+    width: 500px;
+     
+}
+.finish_btn{
+    width: 500px;
+}
+}

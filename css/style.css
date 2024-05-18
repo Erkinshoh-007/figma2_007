@@ -1,0 +1,66 @@
+@import url(./basis.css);
+@import url(./nav.css);
+@import url(./text-game.css);
+.item_li {
+  color: #ffffff;
+  width: 136px;
+  height: 80px;
+  list-style-type: none;
+}
+#dropdown {
+  position: relative;
+}
+.menu_link {
+  font-weight: bold;
+}
+.item_menu {
+  display: none;
+  position: absolute;
+}
+a {
+  text-decoration: none;
+}
+#dropdown {
+  position: relative;
+}
+
+.item_menu {
+  display: none;
+  position: absolute;
+  background-color: aqua;
+}
+.item {
+  background-color: aqua;
+}
+.menu_link {
+  font-weight: bold;
+}
+.item_link {
+  font-weight: bolder;
+  /* background-color: #e7d8d8; */
+  color: rgb(20, 20, 19);
+
+  font-size: 12px;
+}
+#dropdown:hover .item_menu {
+  display: block;
+}
+/* .back_top {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 25px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+} */
+.menu_link {
+}
+.item_li {
+  margin-top: 60px;
+  padding-left: 50px;
+}

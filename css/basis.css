@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+:root {
+  --title-color: #ffffff;
+}
+.nav_bg {
+  background-image: linear-gradient(to right, #050505 50%, #59baff 50%);
+  padding: 20px 0;
+}
+.container {
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}

@@ -356,7 +356,9 @@ angle: -42.37 deg;
     }
 }
 @media(max-width:  710px){
-    
+    .text_the_end{
+        width: ;
+    }
     .text_nature{
         display: flex;
         flex-direction: column;
@@ -370,7 +372,7 @@ angle: -42.37 deg;
         width: 400px;
     }
     .text_little{
-        width: 500px;
+        max-width: 500px;
     }
     .different_game_name{
         margin-top: 100px;
@@ -398,7 +400,7 @@ angle: -42.37 deg;
         height: 200px;
     }
     .text_little{
-        width: 400px;
+        max-width: 400px;
         height: 80px;
     }
     .text_nature{
@@ -612,8 +614,7 @@ justify-content: center;
     opacity: 0px;
 }
 .text_the_end{
-    width: 847px;
-height: 179px;
+    max-width: 847px;
 gap: 0px;
 opacity: 0px;
 font-family: Orbitron;
@@ -621,6 +622,7 @@ font-size: 72px;
 font-weight: 400;
 line-height: 82px;
 text-align: center;
+background-color: red;
 
 }
 .little_text{
@@ -682,14 +684,16 @@ background-color: var(--title-color);
 }
 @media(max-width: 750px){
 .text_the_end{
-    width: 400px;
-    font-size: 40px;
+    font-size: 30px;
 }
+.text_little{
+    max-width: 700px;}
 .little_text{
-    width: 400px;
+   max-width: 400px;
     margin-bottom: 100px;
 }
 .finish_btn{
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -700,13 +704,85 @@ background-color: var(--title-color);
      width: 221px;
 }
 }
-@media(max-width: 650pox){
+@media(max-width: 650px){
 .the_end{
 display: inline; 
-    width: 500px;
      
 }
 .finish_btn{
-    width: 500px;
+ 
+    max-width: 500px;
 }
+ 
 }
+@media(max-width:830px){
+    .text_the_end{
+        font-size: 35px;
+        
+    }
+}
+@media(max-width:500px){
+    .finish_btn{
+        max-width: 300px;
+    }
+    .text_little{
+        max-width: 350px;}
+        .team_menu{
+            display: flex;
+            flex-direction: column;
+        }
+}
+@media(max-width:400px){
+    .text_little{
+        max-width: 360px;}
+    .text_the_end{
+        font-size: 35px; padding: 0 30px ;
+        
+    }
+    .finish_btn{
+        max-width: 400px;
+       
+    }
+    .little_text{
+        max-width: 300px;
+        
+        padding: 10px;
+    }
+}
+@media(max-width:399px){
+    .text_the_end{
+        font-size: 25px; padding: 0 30px ;
+        
+    }
+    .finish_btn{
+        max-width: 250px;
+       
+    }
+    .little_text{
+        height: 200px;
+        padding: 10px;
+        width: 350px;
+    }
+    .text_little{
+        max-width: 300px;}
+}
+@media(max-width:349px){
+    .text_the_end{
+        font-size: 25px; 
+        padding: 0 30px ;
+        
+    }
+    .finish_btn{
+        max-width: 320px;
+       
+    }
+    .little_text{
+        height: 300px;
+        padding: 30px;
+        max-width: 320px;
+    }
+    .text_little{
+        max-width: 300px;}
+}
+
+ 

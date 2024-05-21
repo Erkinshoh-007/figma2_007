@@ -152,7 +152,7 @@ color:var(--title-color)
 }
 .text_nature{ 
     margin: 0 auto;
-    width: 770px;
+    max-width: 770px;
 height: 292px;
 left: 275px;
 }
@@ -360,16 +360,17 @@ angle: -42.37 deg;
         width: ;
     }
     .text_nature{
+        max-width:600px ;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .need_to_gaming{
-        width: 500px;
+        max-width: 500px;
     }
     .fire_future{
-        width: 400px;
+        max-width: 400px;
     }
     .text_little{
         max-width: 500px;
@@ -396,15 +397,15 @@ angle: -42.37 deg;
  @media(max-width:  674px){
     .need_to_gaming{
         font-size: 20px;
-        width: 300px;
-        height: 200px;
+        max-width: 300px;
+        max-height: 200px;
     }
     .text_little{
         max-width: 400px;
         height: 80px;
     }
     .text_nature{
-        width: 400px;
+        max-width: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -530,7 +531,7 @@ opacity: 0px;
     margin-bottom: 40px;
   }
   .fire_future{
-    width: 300px;
+    max-width: 300px;
   }
  /* .muzik_btn{
     left: 70px;
@@ -783,6 +784,11 @@ display: inline;
     }
     .text_little{
         max-width: 300px;}
+
+        .stop{
+            max-width: 300px;
+            max-height: 400px;
+        }
 }
 
  

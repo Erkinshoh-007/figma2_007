@@ -429,7 +429,7 @@ angle: -42.37 deg;
     }
     .one_pages{
          margin-right: 40px;
-        width: 300px;
+        max-width: 300px;
         margin-right: 70px;
     }
     .two_pages{
@@ -789,6 +789,33 @@ display: inline;
             max-width: 300px;
             max-height: 400px;
         }
+        .all_new_name{
+            max-width: 300px;
+            text-align: center;
+            
+        }
+        .one_pages{
+            margin: 0 5px 0 2px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;    
 }
-
- 
+.all_new_name_2{
+   padding:  20px;
+   
+}
+.different_game_name{
+    padding: 0 7px;
+}
+.change{
+    padding: 10px;
+}
+.two_pages{
+    margin: 0 5px 0 2px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+}

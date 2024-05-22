@@ -27,18 +27,18 @@ a {
 .item_menu {
   display: none;
   position: absolute;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .item {
-  background-color: aqua;
+  background-color: red;
 }
 .menu_link {
   font-weight: bold;
 }
 .item_link {
+  color: #ffffff;
   font-weight: bolder;
   /* background-color: #e7d8d8; */
-  color: rgb(20, 20, 19);
 
   font-size: 12px;
 }
@@ -58,8 +58,7 @@ a {
   bottom: 30px;
   right: 30px;
 } */
-.menu_link {
-}
+
 .item_li {
   margin-top: 60px;
   padding-left: 50px;

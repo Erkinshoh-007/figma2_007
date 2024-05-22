@@ -3,8 +3,8 @@
   color:var(--title-color)
 }
 .nav_bg{
-    position: sticky;
-    top: 0 ;
+    /* position: sticky;
+    top: 0 ; */
     
 }
 .text_image{

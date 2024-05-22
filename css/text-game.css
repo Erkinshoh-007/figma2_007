@@ -2,6 +2,11 @@
    background-image: linear-gradient(to right, #050505 50%, #59baff 50%););
   color:var(--title-color)
 }
+.nav_bg{
+    position: sticky;
+    top: 0 ;
+    
+}
 .text_image{
     display: flex;
     padding: 290px 0 250px 0;

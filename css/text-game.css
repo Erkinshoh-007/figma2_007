@@ -501,10 +501,7 @@ position: relative;
     width: 30%;
 height: 129px;
 top: 210.58px;
-/* left: 181.02px; */
 left: 40%;
-gap: 0px;
-opacity: 0px;
  position: absolute;
  }
  .add_text{
@@ -542,8 +539,7 @@ opacity: 0px;
     left: 70px;
  } */
  }
- .group{ 
- }
+ 
  .Sniper_nature{
     display: flex;
     position: relative;
@@ -567,8 +563,6 @@ justify-content: center;
     padding-top: 170px;
     font-family: Orbitron;
 font-size: 48px;
-/* font-weight: 400;
-line-height: 58px; */
 text-align: center;
 color: var(--title-color);
  }
@@ -577,9 +571,6 @@ color: var(--title-color);
 align-items: center;
 justify-content: center;
     position: relative;
- 
-    align-items: center;
-    justify-content: center;
  }
  .control{
     position:  absolute;
